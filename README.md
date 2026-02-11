@@ -1,4 +1,10 @@
 # Crosswalk Guardian (ROS 2 + Gazebo)
+![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
+![Gazebo](https://img.shields.io/badge/Simulator-Gazebo-orange)
+![TurtleBot3](https://img.shields.io/badge/Platform-TurtleBot3-green)
+![Python](https://img.shields.io/badge/Language-Python-yellow)
+![FSM](https://img.shields.io/badge/Control-Finite_State_Machine-purple)
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 
 ROS 2 Humble + Gazebo simulation of an intelligent crosswalk safety system using TurtleBot3.  
 Robot motion is governed by a supervisory traffic-light control architecture to ensure deterministic and safe operation.
