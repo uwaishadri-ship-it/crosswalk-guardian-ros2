@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="project_banner.png" alt="Crosswalk Guardian Banner" width="100%">
+</p>
 # Crosswalk Guardian (ROS 2 + Gazebo)
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
 ![Gazebo](https://img.shields.io/badge/Simulator-Gazebo-orange)
