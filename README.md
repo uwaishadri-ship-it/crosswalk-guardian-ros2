@@ -109,3 +109,35 @@ gzserver --verbose \
   -s libgazebo_ros_factory.so \
   worlds/crosswalk_final.world
 
+---
+
+# System Architecture
+
+![System Architecture](docs/diagrams/system_architecture_of_crosswalk.jpeg)
+
+This diagram illustrates the supervisory control structure between ROS 2 nodes,
+topics, and Gazebo simulation environment.
+
+---
+
+# ROS 2 Node and Topic Communication
+
+![ROS2 Communication](docs/diagrams/ros2_node_and_topic_communication_diagram.jpeg)
+
+The architecture follows a publisher-subscriber model:
+- Traffic light node publishes state
+- Patrol actuation node subscribes
+- Velocity commands sent to `/cmd_vel`
+- Gazebo simulates robot motion
+
+---
+
+# Integrated Navigation & Safety Workflow
+
+![Workflow](docs/diagrams/Integrated_navigation_and_safety_workflow.jpeg)
+
+The workflow integrates:
+- Supervisory signal validation
+- State-based control logic
+- Safety gating
+- Deterministic motion execution
