@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.log
+*.bag
+*.db3
+*.sqlite3
+.vscode/
+.DS_Store
