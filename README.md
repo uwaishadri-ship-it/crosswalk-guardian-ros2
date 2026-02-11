@@ -2,6 +2,22 @@
 
 ROS 2 Humble + Gazebo simulation of an intelligent crosswalk safety system using TurtleBot3.  
 Robot motion is governed by a supervisory traffic-light control architecture to ensure deterministic and safe operation.
+---
+
+# 🎥 Demo Video
+
+Click the image below to watch the full system demonstration:
+
+[![Watch Demo](Simulation_preview_crosswalk_world_with_Robot.png)](https://youtu.be/pUyI2uL8t7E)
+
+The demo showcases:
+
+- Deterministic startup sequencing
+- GREEN phase curb-to-curb patrol
+- YELLOW warning behavior with continuous alert
+- 180° rotation strictly at curb location
+- Immediate RED phase motion stop
+- Supervisory topic-based safety gating
 
 ---
 
